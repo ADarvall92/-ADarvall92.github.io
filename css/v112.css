@@ -1,3 +1,5 @@
+@import url('styles.css');
+
 /* Version 1.11 homepage consolidation and navigation simplification */
 :root { --oxblood:#7a2d22; }
 section[id] { scroll-margin-top: 5.5rem; }
