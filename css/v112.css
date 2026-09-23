@@ -30,7 +30,7 @@ section[id] { scroll-margin-top: 5.5rem; }
 .redirect-page .card { max-width:620px; }
 .redirect-page h1 { font-size:clamp(2.5rem,8vw,5rem); }
 @media (max-width:920px){.proof-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.proof-grid>div:nth-child(2){border-right:0}.proof-grid>div:nth-child(-n+2){border-bottom:1px solid var(--line)}.press-snapshot,.home-contact-grid{grid-template-columns:1fr;}.press-teaser-image{max-width:480px}}
-@media (max-width:760px){.nav-links{overflow-x:auto;justify-content:flex-start;max-width:70vw;padding-bottom:.15rem;scrollbar-width:none}.nav-links::-webkit-scrollbar{display:none}.nav-links a{white-space:nowrap;font-size:.58rem}.portrait-rail{grid-auto-columns:76vw}.portrait-rail-item:nth-child(n){aspect-ratio:4/5}}
+@media (max-width:760px){.nav-links{flex-wrap:wrap;overflow:visible;justify-content:flex-start;max-width:none;gap:.42rem .8rem;padding-bottom:.15rem}.nav-links::-webkit-scrollbar{display:none}.nav-links a{white-space:nowrap;font-size:.58rem}.portrait-rail{grid-auto-columns:76vw}.portrait-rail-item:nth-child(n){aspect-ratio:4/5}}
 @media (max-width:520px){.proof-grid{grid-template-columns:1fr}.proof-grid>div{border-right:0;border-bottom:1px solid var(--line)!important}.proof-grid>div:last-child{border-bottom:0!important}.home-work-grid{grid-template-columns:1fr}.press-name-list{gap:.45rem}}
 
 /* Version 1.12 Anastasia-alignment refinements */
